@@ -1,6 +1,6 @@
-# symph-front-end
+# vageesh-front-end
 
-Frontend for Symphony — an Agentic AI Orchestration Platform.
+Frontend for Vageesh — an Agentic AI Orchestration Platform.
 
 React 19 + TypeScript SPA, built with Vite and served by nginx in Docker.
 
@@ -8,10 +8,10 @@ React 19 + TypeScript SPA, built with Vite and served by nginx in Docker.
 
 ## Quick Start — Docker
 
-The frontend is built and served automatically as part of the Docker Compose stack in `symph-back-end`:
+The frontend is built and served automatically as part of the Docker Compose stack in `vageesh-back-end`:
 
 ```bash
-cd ../symph-back-end
+cd ../vageesh-back-end
 docker compose up --build
 ```
 

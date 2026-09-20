@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Frontend for **Symphony** — an Agentic AI Orchestration Platform. React 19 SPA with TypeScript, built with Vite.
+Frontend for **Vageesh** — an Agentic AI Orchestration Platform. React 19 SPA with TypeScript, built with Vite.
 
 ## Commands
 
