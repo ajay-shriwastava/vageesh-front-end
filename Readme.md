@@ -113,3 +113,7 @@ The workflows page includes a full visual drag-and-drop workflow builder:
 - **Run panel**: live WebSocket event stream showing node progress in real time
 - **Run history**: collapsible table of past runs with status badges and timestamps
 - **Templates**: one-click instantiation of pre-built workflows (Data Ingestion Pipeline, SRE Job Summary)
+
+---
+
+Licensed under the Apache License 2.0. Copyright 2026 Ajay Shriwastava.
