@@ -11,7 +11,7 @@ function TemplateCard({ template: t, onCreated }: { template: Template; onCreate
     setLoading(true);
     try {
       const wf = await instantiateTemplate(t.id);
-      showToast(`"${wf.name}" created and scheduled.`);
+      showToast(`"${wf.name}" created.`);
       onCreated();
     } catch (e) {
       showToast((e as Error).message, "error");
@@ -24,12 +24,7 @@ function TemplateCard({ template: t, onCreated }: { template: Template; onCreate
     <div className="template-card">
       <div className="template-card-name">{t.name}</div>
       <div className="template-card-desc">{t.description}</div>
-      {t.schedule && (
-        <div className="template-card-schedule">
-          <span className="badge badge-teal">⏱ {t.schedule}</span>
-        </div>
-      )}
-      <button className="btn btn-primary btn-sm" onClick={handleUse} disabled={loading}>
+<button className="btn btn-primary btn-sm" onClick={handleUse} disabled={loading}>
         {loading ? "Creating…" : "Use Template"}
       </button>
     </div>

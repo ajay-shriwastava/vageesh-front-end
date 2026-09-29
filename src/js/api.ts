@@ -191,7 +191,7 @@ export interface Template {
   id: string;
   name: string;
   description: string;
-  schedule: string | null;
+  trigger_type: string;
 }
 
 // ── Base fetch ──────────────────────────────────────────────────────────────
