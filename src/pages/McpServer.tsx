@@ -3,7 +3,7 @@ import Pagination from "../components/Pagination.tsx";
 import LoadingRows from "../components/LoadingRows.tsx";
 import { useToast } from "../context/ToastContext.tsx";
 import { useApiList } from "../hooks/useApiList.ts";
-import { getMcpAuditLog, getMcpTools, McpAuditLogEntry, McpToolInfo } from "../js/api.ts";
+import { getMcpAuditLog, getMcpTools, type McpAuditLogEntry, type McpToolInfo } from "../js/api.ts";
 import { truncate } from "../utils/truncate.ts";
 
 // Derive the MCP endpoint URL relative to the current window origin.
